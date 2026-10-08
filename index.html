@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#221d35" />
+  <meta name="description" content="Convite digital clássico e interativo de 15 anos — uma demonstração da KHT Digital." />
+  <title>Convite de 15 Anos | KHT Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Elementos gráficos em SVG: fazem parte do site, sem dependência de imagem externa. -->
+  <svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="floral" viewBox="0 0 280 300">
+        <g fill="none" stroke="#8f7896" stroke-width="2.1" stroke-linecap="round" opacity=".72">
+          <path d="M12 18C84 54 75 139 132 215c28 38 62 55 116 74" />
+          <path d="M67 71c-19-27-31-45-38-51M77 96c-26-8-51-6-72 0M95 141c9-35 23-62 43-88M109 169c-23-4-43-1-60 9M156 242c-4-26 3-47 18-64M201 269c24-16 40-37 48-60" />
+        </g>
+        <g fill="#b99fbd" opacity=".74">
+          <path d="M28 24c14-20 36-10 43 11-18 6-34 1-43-11Z"/>
+          <path d="M5 97C8 72 39 67 54 85c-12 16-32 22-49 12Z"/>
+          <path d="M141 51c-20 1-34 17-27 37 21 0 36-16 27-37Z"/>
+          <path d="M52 178c-5-22-28-28-42-13 10 19 24 22 42 13Z"/>
+          <path d="M176 177c-25 0-35 18-25 37 20-3 29-18 25-37Z"/>
+          <path d="M251 209c-25-7-43 4-45 26 22 6 40-5 45-26Z"/>
+        </g>
+        <g transform="translate(101 126)">
+          <ellipse rx="25" ry="39" cy="-24" fill="#ddd0df"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#d8bdd4" transform="rotate(60)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#e6dae7" transform="rotate(120)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#c7b0cc" transform="rotate(180)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#e8dce8" transform="rotate(240)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#cbb9d1" transform="rotate(300)"/>
+          <circle r="18" fill="#f7edf0"/><circle r="8" fill="#c6a77c" />
+        </g>
+        <g transform="translate(201 254) scale(.5)">
+          <ellipse rx="25" ry="39" cy="-24" fill="#dbc7dc"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#e6d6e5" transform="rotate(60)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#c5b0cf" transform="rotate(120)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#e6d6e5" transform="rotate(180)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#c9b4d4" transform="rotate(240)"/>
+          <ellipse rx="25" ry="39" cy="-24" fill="#e6d6e5" transform="rotate(300)"/>
+          <circle r="20" fill="#f5ecdf"/><circle r="9" fill="#b9976d" />
+        </g>
+        <circle cx="50" cy="56" r="6" fill="#cfb99f"/><circle cx="159" cy="88" r="4" fill="#d3b9a5"/>
+      </symbol>
+      <symbol id="ico-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+      <symbol id="ico-pin" viewBox="0 0 24 24"><path d="M20 10c0 5.5-8 11-8 11S4 15.5 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+      <symbol id="ico-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></symbol>
+      <symbol id="ico-chat" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.5 7.2L4 20l1.3-4.2A8 8 0 1 1 20 11.5Z"/><path d="M9 9c1.1 2.5 2.8 4.1 5.7 5.6"/></symbol>
+      <symbol id="ico-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    </defs>
+  </svg>
+
+  <main class="layout">
+    <div class="brand-bar" aria-label="Demonstração KHT Digital">
+      <div class="brand"><span class="brand-logo">K</span><span><strong>KHT Digital</strong><small>PORTFÓLIO · CONVITE CLÁSSICO</small></span></div>
+      <span class="brand-right">MODELO 02B</span>
+    </div>
+
+    <article class="invitation" aria-labelledby="invitation-title">
+      <div class="paper-grain" aria-hidden="true"></div>
+      <div class="inner-frame" aria-hidden="true"></div>
+      <svg class="flowers flowers-top-left" viewBox="0 0 280 300" aria-hidden="true"><use href="#floral"/></svg>
+      <svg class="flowers flowers-top-right" viewBox="0 0 280 300" aria-hidden="true"><use href="#floral"/></svg>
+      <svg class="flowers flowers-bottom-left" viewBox="0 0 280 300" aria-hidden="true"><use href="#floral"/></svg>
+      <svg class="flowers flowers-bottom-right" viewBox="0 0 280 300" aria-hidden="true"><use href="#floral"/></svg>
+      <div class="sparkle sparkle-a" aria-hidden="true">✦</div>
+      <div class="sparkle sparkle-b" aria-hidden="true">✧</div>
+      <div class="sparkle sparkle-c" aria-hidden="true">✦</div>
+
+      <div class="invitation-content">
+        <div class="invitation-overline"><span class="tiny-line"></span> CONVITE ESPECIAL <span class="tiny-line"></span></div>
+        <p class="opening-copy">Com muita alegria, convido você para celebrar comigo um momento inesquecível.</p>
+
+        <div class="age-crest" aria-label="15 anos"><span class="crest-crown" aria-hidden="true">✧</span><span>15</span><em>anos</em></div>
+        <h1 id="invitation-title" class="celebrant" data-field="nome">Isabela</h1>
+        <p class="small-subtitle">UMA NOITE PARA BRILHAR</p>
+        <div class="ornament" aria-hidden="true"><span></span>✦<span></span></div>
+        <p class="invite-copy">Alguns momentos merecem ser celebrados ao lado de pessoas especiais. <strong>Sua presença tornará essa noite ainda mais bonita!</strong></p>
+
+        <div class="event-details">
+          <div class="date-block">
+            <span class="detail-eyebrow">GUARDE ESTA DATA</span>
+            <div class="date-main"><strong data-field="dia">22</strong><span class="date-separator"></span><div><span data-field="mes">MAIO</span><span data-field="ano">2027</span></div></div>
+            <span class="day-line"><span data-field="semana">SÁBADO</span> · <span data-field="horario">19H00</span></span>
+          </div>
+          <div class="detail-divider" aria-hidden="true"></div>
+          <div class="venue-block">
+            <span class="detail-eyebrow">LOCAL DA FESTA</span>
+            <strong data-field="local">Parque Ibirapuera</strong>
+            <span data-field="endereco">São Paulo · SP</span>
+          </div>
+        </div>
+
+        <div class="rsvp-heading"><span>ESPERAMOS VOCÊ!</span><p>Confirme sua presença e encontre o caminho para a festa.</p></div>
+        <div class="actions">
+          <a id="rsvp-link" class="action action-rsvp" href="#" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#ico-chat"/></svg><span>Confirmar presença</span><svg class="action-arrow" aria-hidden="true"><use href="#ico-arrow"/></svg></a>
+          <a id="maps-link" class="action action-map" href="#" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true"><use href="#ico-pin"/></svg><span>Abrir no Google Maps</span><svg class="action-arrow" aria-hidden="true"><use href="#ico-arrow"/></svg></a>
+        </div>
+        <div class="countdown" aria-live="off"><span class="countdown-label">CONTAGEM REGRESSIVA</span><span id="countdown-text">Preparando o grande dia...</span></div>
+        <p class="closing">Vai ser ainda mais especial com você lá. <span aria-hidden="true">♡</span></p>
+      </div>
+    </article>
+    <div class="outside-footer"><p id="demo-notice">Demonstração: nome, data e local são exemplos. Os botões funcionam como prévia.</p><p>Feito com carinho por <a href="https://www.instagram.com/khtdigital/" target="_blank" rel="noopener noreferrer">KHT Digital <span aria-hidden="true">↗</span></a></p></div>
+  </main>
+</body>
+</html>
